@@ -1,0 +1,28 @@
+#!name=Talkatone Bottom Ad Block
+#!desc=根据抓包先拦截 Talkatone 屏幕底部 320x50 / native 广告请求；如果误伤功能，先关闭本插件再反馈。
+#!author=OpenClaw
+#!date=2026-05-24
+
+[Rule]
+# Smaato：抓包里出现 320x50 display 与 native 广告位
+DOMAIN,sdk-dnt.ad.smaato.net,REJECT
+DOMAIN,sdk-files.smaato.net,REJECT
+DOMAIN,sdk-hb-cfg.smaato.net,REJECT
+
+# Digital Turbine / InnerActive / Fyber：Talkatone 内广告 SDK 与素材/配置
+DOMAIN,wv.inner-active.mobi,REJECT
+DOMAIN,cdn2.inner-active.mobi,REJECT
+
+# Tappx：抓包里明确为 at=banner&fsz=320x50
+DOMAIN,ssp.api.tappx.com,REJECT
+
+# PubMatic OpenWrap：广告竞价/配置
+DOMAIN,ads.pubmatic.com,REJECT
+DOMAIN,ow.pubmatic.com,REJECT
+
+# MobileFuse：广告竞价/配置
+DOMAIN,mfx.mobilefuse.com,REJECT
+DOMAIN,cdn.mobilefuse.com,REJECT
+
+# Talkatone 广告/事件追踪
+DOMAIN,a1.tktn.be,REJECT
