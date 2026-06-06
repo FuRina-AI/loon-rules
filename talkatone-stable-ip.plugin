@@ -1,0 +1,32 @@
+#!name=Talkatone Stable-IP Route
+#!desc=Talkatone/Google OAuth/hCaptcha registration domains use the same clean proxy node/group. Replace policy name `TalkatoneProxy` with your Loon policy/group name if needed. Do NOT MITM these domains.
+#!author=OpenClaw
+
+[Rule]
+# Talkatone core / event / API domains observed in capture
+DOMAIN-SUFFIX,tktn.be,TalkatoneProxy
+DOMAIN-SUFFIX,talkatone.com,TalkatoneProxy
+DOMAIN-SUFFIX,talkme.im,TalkatoneProxy
+
+# Google OAuth / account data used during third-party signup
+DOMAIN-SUFFIX,accounts.google.com,TalkatoneProxy
+DOMAIN-SUFFIX,oauth2.googleapis.com,TalkatoneProxy
+DOMAIN-SUFFIX,people.googleapis.com,TalkatoneProxy
+DOMAIN-SUFFIX,accounts.youtube.com,TalkatoneProxy
+DOMAIN-SUFFIX,www.gstatic.com,TalkatoneProxy
+DOMAIN-SUFFIX,gstatic.com,TalkatoneProxy
+DOMAIN-SUFFIX,googleusercontent.com,TalkatoneProxy
+DOMAIN-SUFFIX,play.google.com,TalkatoneProxy
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,TalkatoneProxy
+
+# hCaptcha must use the same IP as the registration flow
+DOMAIN-SUFFIX,hcaptcha.com,TalkatoneProxy
+DOMAIN-SUFFIX,imgs3.hcaptcha.com,TalkatoneProxy
+DOMAIN-KEYWORD,hcaptcha,TalkatoneProxy
+
+# Analytics seen in capture; keep same exit IP to avoid mixed-region signals
+DOMAIN-SUFFIX,app-analytics-services.com,TalkatoneProxy
+
+[MITM]
+# Intentionally empty. Do not enable MITM for Google/hCaptcha/Talkatone registration.
+hostname =
