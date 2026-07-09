@@ -38,24 +38,24 @@ DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,sinaimg.cn
 
-# TikTok
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
+# TikTok（海外平台，直连列表默认注释）
+# DOMAIN-SUFFIX,tiktok.com
+# DOMAIN-SUFFIX,tiktokcdn.com
+# DOMAIN-SUFFIX,tiktokv.com
+# DOMAIN-SUFFIX,byteoversea.com
+# DOMAIN-SUFFIX,ibytedtos.com
 
-# YouTube
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ytimg.com
+# YouTube（海外平台，直连列表默认注释）
+# DOMAIN-SUFFIX,youtube.com
+# DOMAIN-SUFFIX,youtu.be
+# DOMAIN-SUFFIX,googlevideo.com
+# DOMAIN-SUFFIX,ytimg.com
 
-# X / Twitter 及 xdown 解析接口
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,xdown.app
+# X / Twitter 及 xdown 解析接口（海外平台，直连列表默认注释）
+# DOMAIN-SUFFIX,x.com
+# DOMAIN-SUFFIX,twitter.com
+# DOMAIN-SUFFIX,twimg.com
+# DOMAIN-SUFFIX,xdown.app
 
 # 其它 parser 支持的平台，按需命中
 DOMAIN-SUFFIX,acfun.cn
@@ -71,6 +71,6 @@ DOMAIN-SUFFIX,xiaoheihe.cn
 DOMAIN-SUFFIX,portal101.cn
 DOMAIN-SUFFIX,wmpvp.com
 DOMAIN-SUFFIX,wanmei.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,fbcdn.net
+# # DOMAIN-SUFFIX,instagram.com
+# DOMAIN-SUFFIX,cdninstagram.com
+# DOMAIN-SUFFIX,fbcdn.net
