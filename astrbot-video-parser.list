@@ -2,6 +2,7 @@
 # AUTHOR: OpenClaw
 # UPDATED: 2026-07-09
 # DESC: AstrBot astrbot_plugin_parser 解析/下载视频与图集常用域名规则；用于 Loon Rule URL 订阅。
+# NOTE: 短链/跳转入口默认注释，避免 Docker + Loon fake-ip 场景下容器拿到 198.x fake-ip 后直连失败。
 
 # Bilibili / B站
 DOMAIN-SUFFIX,bilibili.com
@@ -9,8 +10,8 @@ DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,b23.tv
-DOMAIN-SUFFIX,bili2233.cn
+# DOMAIN-SUFFIX,b23.tv  # 短链跳转入口，Docker/Loon fake-ip 环境下可能直连失败，默认不放直连
+# DOMAIN-SUFFIX,bili2233.cn  # 短链跳转入口，默认不放直连
 
 # Douyin / 抖音 / 字节系素材与接口
 DOMAIN-SUFFIX,douyin.com
@@ -26,7 +27,7 @@ DOMAIN-SUFFIX,snssdk.com
 # Xiaohongshu / 小红书
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xhslink.com
+# DOMAIN-SUFFIX,xhslink.com  # 小红书短链跳转入口，当前日志显示 fake-ip 直连失败，默认不放直连
 
 # Kuaishou / 快手
 DOMAIN-SUFFIX,kuaishou.com
@@ -66,7 +67,7 @@ DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,bbs.nga.cn
 DOMAIN-SUFFIX,music.163.com
 DOMAIN-SUFFIX,music.126.net
-DOMAIN-SUFFIX,163cn.tv
+# DOMAIN-SUFFIX,163cn.tv  # 网易云短链入口，默认不放直连
 DOMAIN-SUFFIX,xiaoheihe.cn
 DOMAIN-SUFFIX,portal101.cn
 DOMAIN-SUFFIX,wmpvp.com
