@@ -20,6 +20,24 @@ https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/talkatone-stable-ip.
 
 ## NapCat / AstrBot
 
+
+### NapCat QQ Login Rule URL
+
+Loon「Rule」里添加 URL 用这个：
+
+```text
+https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/napcat-qq-login.list
+```
+
+### AstrBot Video Parser Rule URL
+
+Loon「Rule」里添加 URL 用这个：
+
+```text
+https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/astrbot-video-parser.list
+```
+
+
 ### NapCat QQ Login Domains
 
 NapCat 登录 QQ、保活、头像/图片资源常用域名规则。

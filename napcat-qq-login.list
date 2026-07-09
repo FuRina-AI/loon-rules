@@ -1,0 +1,10 @@
+# NAME: NapCat QQ Login Domains
+# AUTHOR: OpenClaw
+# UPDATED: 2026-07-09
+# DESC: NapCat 登录 QQ、保活、头像/图片资源常用域名规则；用于 Loon Rule URL 订阅。
+
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
