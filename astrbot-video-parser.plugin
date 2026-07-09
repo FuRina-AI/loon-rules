@@ -1,0 +1,77 @@
+#!name=AstrBot Video Parser Domains
+#!desc=AstrBot astrbot_plugin_parser 解析/下载视频与图集常用域名规则；覆盖 B站、抖音、小红书、快手、微博、TikTok、YouTube、X 等。
+#!author=OpenClaw
+#!date=2026-07-09
+
+[Rule]
+# Bilibili / B站
+DOMAIN-SUFFIX,bilibili.com,PROXY
+DOMAIN-SUFFIX,biliapi.net,PROXY
+DOMAIN-SUFFIX,biliapi.com,PROXY
+DOMAIN-SUFFIX,bilivideo.com,PROXY
+DOMAIN-SUFFIX,hdslb.com,PROXY
+DOMAIN-SUFFIX,b23.tv,PROXY
+DOMAIN-SUFFIX,bili2233.cn,PROXY
+
+# Douyin / 抖音 / 字节系素材与接口
+DOMAIN-SUFFIX,douyin.com,PROXY
+DOMAIN-SUFFIX,douyinpic.com,PROXY
+DOMAIN-SUFFIX,iesdouyin.com,PROXY
+DOMAIN-SUFFIX,amemv.com,PROXY
+DOMAIN-SUFFIX,byteimg.com,PROXY
+DOMAIN-SUFFIX,bytedance.com,PROXY
+DOMAIN-SUFFIX,bytedanceapi.com,PROXY
+DOMAIN-SUFFIX,ixigua.com,PROXY
+DOMAIN-SUFFIX,snssdk.com,PROXY
+
+# Xiaohongshu / 小红书
+DOMAIN-SUFFIX,xiaohongshu.com,PROXY
+DOMAIN-SUFFIX,xhscdn.com,PROXY
+DOMAIN-SUFFIX,xhslink.com,PROXY
+
+# Kuaishou / 快手
+DOMAIN-SUFFIX,kuaishou.com,PROXY
+DOMAIN-SUFFIX,chenzhongtech.com,PROXY
+DOMAIN-SUFFIX,kuaishouzt.com,PROXY
+
+# Weibo / 微博
+DOMAIN-SUFFIX,weibo.com,PROXY
+DOMAIN-SUFFIX,weibo.cn,PROXY
+DOMAIN-SUFFIX,sinaimg.cn,PROXY
+
+# TikTok
+DOMAIN-SUFFIX,tiktok.com,PROXY
+DOMAIN-SUFFIX,tiktokcdn.com,PROXY
+DOMAIN-SUFFIX,tiktokv.com,PROXY
+DOMAIN-SUFFIX,byteoversea.com,PROXY
+DOMAIN-SUFFIX,ibytedtos.com,PROXY
+
+# YouTube
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,youtu.be,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+
+# X / Twitter 及 xdown 解析接口
+DOMAIN-SUFFIX,x.com,PROXY
+DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,twimg.com,PROXY
+DOMAIN-SUFFIX,xdown.app,PROXY
+
+# 其它 parser 支持的平台，按需命中
+DOMAIN-SUFFIX,acfun.cn,PROXY
+DOMAIN-SUFFIX,zhihu.com,PROXY
+DOMAIN-SUFFIX,zhimg.com,PROXY
+DOMAIN-SUFFIX,nga.178.com,PROXY
+DOMAIN-SUFFIX,ngabbs.com,PROXY
+DOMAIN-SUFFIX,bbs.nga.cn,PROXY
+DOMAIN-SUFFIX,music.163.com,PROXY
+DOMAIN-SUFFIX,music.126.net,PROXY
+DOMAIN-SUFFIX,163cn.tv,PROXY
+DOMAIN-SUFFIX,xiaoheihe.cn,PROXY
+DOMAIN-SUFFIX,portal101.cn,PROXY
+DOMAIN-SUFFIX,wmpvp.com,PROXY
+DOMAIN-SUFFIX,wanmei.com,PROXY
+DOMAIN-SUFFIX,instagram.com,PROXY
+DOMAIN-SUFFIX,cdninstagram.com,PROXY
+DOMAIN-SUFFIX,fbcdn.net,PROXY

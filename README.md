@@ -17,3 +17,21 @@ https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/talkatone-bottom-ad.
 ```text
 https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/talkatone-stable-ip.plugin
 ```
+
+## NapCat / AstrBot
+
+### NapCat QQ Login Domains
+
+NapCat 登录 QQ、保活、头像/图片资源常用域名规则。
+
+```text
+https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/napcat-qq-login.plugin
+```
+
+### AstrBot Video Parser Domains
+
+AstrBot `astrbot_plugin_parser` 解析/下载视频与图集常用域名规则。
+
+```text
+https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/astrbot-video-parser.plugin
+```

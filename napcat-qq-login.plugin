@@ -1,0 +1,14 @@
+#!name=NapCat QQ Login Domains
+#!desc=NapCat 登录 QQ、保活、头像/图片资源常用域名规则；用于给容器/本机链路指定策略组。
+#!author=OpenClaw
+#!date=2026-07-09
+
+[Rule]
+# QQ 登录、消息、扫码、保活核心域名
+DOMAIN-SUFFIX,qq.com,PROXY
+DOMAIN-SUFFIX,tencent.com,PROXY
+DOMAIN-SUFFIX,myqcloud.com,PROXY
+
+# QQ 头像、图片、资源链路
+DOMAIN-SUFFIX,qlogo.cn,PROXY
+DOMAIN-SUFFIX,qpic.cn,PROXY
