@@ -16,13 +16,13 @@ DOMAIN-SUFFIX,hdslb.com
 # Douyin / 抖音 / 字节系素材与接口
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,iesdouyin.com
-DOMAIN-SUFFIX,amemv.com
+# DOMAIN-SUFFIX,iesdouyin.com  # 抖音接口/播放跳转域名，Docker/Loon fake-ip 环境下不建议直连
+# DOMAIN-SUFFIX,amemv.com  # 抖音接口/跳转域名，默认不放直连
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,snssdk.com
+# DOMAIN-SUFFIX,snssdk.com  # aweme.snssdk.com 播放地址会拿到 Loon fake-ip 并触发证书校验失败，默认不放直连
 
 # Xiaohongshu / 小红书
 DOMAIN-SUFFIX,xiaohongshu.com
